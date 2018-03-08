@@ -1,0 +1,63 @@
+.side-box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.logotipo{
+    position: relative;
+    top: 25px;
+}
+
+.grey-side-box{
+    width: 100px;
+    height: 100px;
+    background-color: #807E7E;
+    margin: 0 auto;
+}
+
+.blue-side-box{
+    width: 100px;
+    height: 100px;
+    background-color: #5375FB;
+    margin: 0 auto;
+}
+
+.black-side-box{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-roboto{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.small-font{
+    font-size: 20px;
+}
+
+.medium-font{
+    font-size: 35px;
+}
+
+.big-font{
+    font-size: 50px;
+}
+
+.grey-text{
+    color: #807E7E;
+}
+
+.blue-text{
+    color: #5375FB;
+}
+.blue-text{
+    color: #333;
+}
