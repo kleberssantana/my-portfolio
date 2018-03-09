@@ -5,9 +5,19 @@
     margin: 0 auto;
 }
 
+.balance-image{
+    height: 148px;
+}
+
 .logotipo{
     position: relative;
     top: 25px;
+}
+
+.line{
+    height:3px;
+    border:none;
+    background-color:#807e7e;
 }
 
 .grey-side-box{
@@ -60,4 +70,33 @@
 }
 .blue-text{
     color: #333;
+}
+
+/*
+    Some breakpoints for devices transitions
+*/
+@media screen and (max-width: 991px){
+    aside{
+        display: none;
+    }
+
+    .subtitle{
+        text-align: center;
+    }
+
+    .logotipo{
+        top:110px;
+    }
+
+    .shrink-image{
+        width: 500px;
+        height: 250px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 583px){
+    .logotipo{
+        display: none;
+    }
 }
